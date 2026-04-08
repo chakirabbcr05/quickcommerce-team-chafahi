@@ -1,0 +1,8 @@
+app.get('/version', (req, res) => {
+  res.json({ 
+    service: 'commandes',  
+    version: '1.0.1',
+    team: 'QuickCommerce Team', 
+    date: new Date().toISOString()
+  });
+});
