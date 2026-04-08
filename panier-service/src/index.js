@@ -64,11 +64,10 @@ app.get('/version', (req, res) => {
   res.json({ 
     service: 'panier', 
     version: '1.0.1',
-    team: 'QuickCommerce Team NOM1-NOM2',
+    team: 'QuickCommerce Team Chafahi',
     date: new Date().toISOString()
   });
 });
-
 
 app.listen(PORT, () => {
   console.log(`🛒 Panier Service - Port ${PORT}`);
